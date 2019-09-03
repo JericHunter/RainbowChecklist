@@ -48,6 +48,8 @@ def select(function_code):
     # Catch all
     else:
         print("Unknown Option")
+    
+    return True
 
 
 def user_input(prompt):
@@ -75,7 +77,7 @@ def test():
     user_value = user_input("Please Enter a value:")
     print(user_value)
 
-test()
+#test()
 
 running = True
 while running:
